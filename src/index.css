@@ -27,6 +27,15 @@ body {
   color: var(--color-text);
 }
 
+/* Hide scrollbar for pill row on mobile */
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
 /* ── react-datepicker theme overrides ─────────────────────────── */
 .react-datepicker {
   font-family: inherit !important;
